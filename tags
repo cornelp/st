@@ -10,10 +10,34 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
 $(OBJ)	Makefile	/^$(OBJ): config.h config.mk$/;"	t
+-1059,13 +1069,53	st-scrollback-0.8.4.diff	/^@@ -1059,13 +1069,53 @@ tswapscreen(void)$/;"	h	modifiedFile:a/st.c
+-1075,17 +1125,28	st-scrollback-0.8.4.diff	/^@@ -1075,17 +1125,28 @@ tscrolldown(int orig, int n)$/;"	h	modifiedFile:a/st.c
+-1095,7 +1156,8	st-scrollback-0.8.4.diff	/^@@ -1095,7 +1156,8 @@ tscrollup(int orig, int n)$/;"	h	modifiedFile:a/st.c
+-1124,7 +1186,7	st-scrollback-0.8.4.diff	/^@@ -1124,7 +1186,7 @@ tnewline(int first_col)$/;"	h	modifiedFile:a/st.c
+-115,6 +119,9	st-scrollback-0.8.4.diff	/^@@ -115,6 +119,9 @@ typedef struct {$/;"	h	modifiedFile:a/st.c
 -116,10 +116,10	st-nordtheme-0.8.2.diff	/^@@ -116,10 +116,10 @@ static const char *colorname[] = {$/;"	h	modifiedFile:a/config.def.h
+-1289,14 +1351,14	st-scrollback-0.8.4.diff	/^@@ -1289,14 +1351,14 @@ void$/;"	h	modifiedFile:a/st.c
 -1489,6 +1489,7	st-dynamic-cursor-color-0.8.4.diff	/^@@ -1489,6 +1489,7 @@ void$/;"	h	modifiedFile:a/x.c
 -1518,10 +1519,24	st-dynamic-cursor-color-0.8.4.diff	/^@@ -1518,10 +1519,24 @@ xdrawcursor(int cx, int cy, Glyph g, int ox, int oy, Glyph og)$/;"	h	modifiedFile:a/x.c
+-1733,11 +1795,11	st-scrollback-0.8.4.diff	/^@@ -1733,11 +1795,11 @@ csihandle(void)$/;"	h	modifiedFile:a/st.c
+-184,8 +191,8	st-scrollback-0.8.4.diff	/^@@ -184,8 +191,8 @@ static void tnewline(int);$/;"	h	modifiedFile:a/st.c
+-199,6 +199,8	st-scrollback-0.8.4.diff	/^@@ -199,6 +199,8 @@ static Shortcut shortcuts[] = {$/;"	h	modifiedFile:a/config.def.h
+-2241,7 +2303,7	st-scrollback-0.8.4.diff	/^@@ -2241,7 +2303,7 @@ eschandle(uchar ascii)$/;"	h	modifiedFile:a/st.c
+-2254,7 +2316,7	st-scrollback-0.8.4.diff	/^@@ -2254,7 +2316,7 @@ eschandle(uchar ascii)$/;"	h	modifiedFile:a/st.c
+-2464,7 +2526,7	st-scrollback-0.8.4.diff	/^@@ -2464,7 +2526,7 @@ twrite(const char *buf, int buflen, int show_ctrl)$/;"	h	modifiedFile:a/st.c
+-2501,6 +2563,14	st-scrollback-0.8.4.diff	/^@@ -2501,6 +2563,14 @@ tresize(int col, int row)$/;"	h	modifiedFile:a/st.c
+-2559,7 +2629,7	st-scrollback-0.8.4.diff	/^@@ -2559,7 +2629,7 @@ drawregion(int x1, int y1, int x2, int y2)$/;"	h	modifiedFile:a/st.c
+-2580,8 +2650,9	st-scrollback-0.8.4.diff	/^@@ -2580,8 +2650,9 @@ draw(void)$/;"	h	modifiedFile:a/st.c
+-35,6 +35,7	st-scrollback-0.8.4.diff	/^@@ -35,6 +35,7 @@$/;"	h	modifiedFile:a/st.c
+-414,10 +421,10	st-scrollback-0.8.4.diff	/^@@ -414,10 +421,10 @@ tlinelen(int y)$/;"	h	modifiedFile:a/st.c
+-42,6 +43,9	st-scrollback-0.8.4.diff	/^@@ -42,6 +43,9 @@$/;"	h	modifiedFile:a/st.c
+-526,7 +533,7	st-scrollback-0.8.4.diff	/^@@ -526,7 +533,7 @@ selsnap(int *x, int *y, int direction)$/;"	h	modifiedFile:a/st.c
+-541,14 +548,14	st-scrollback-0.8.4.diff	/^@@ -541,14 +548,14 @@ selsnap(int *x, int *y, int direction)$/;"	h	modifiedFile:a/st.c
+-569,14 +576,14	st-scrollback-0.8.4.diff	/^@@ -569,14 +576,14 @@ selsnap(int *x, int *y, int direction)$/;"	h	modifiedFile:a/st.c
+-607,13 +614,13	st-scrollback-0.8.4.diff	/^@@ -607,13 +614,13 @@ getsel(void)$/;"	h	modifiedFile:a/st.c
 -673,6 +673,7	st-clipboard-0.8.3.diff	/^@@ -673,6 +673,7 @@ setsel(char *str, Time t)$/;"	h	modifiedFile:a/x.c
+-81,6 +81,8	st-scrollback-0.8.4.diff	/^@@ -81,6 +81,8 @@ void die(const char *, ...);$/;"	h	modifiedFile:a/st.h
+-848,6 +855,9	st-scrollback-0.8.4.diff	/^@@ -848,6 +855,9 @@ void$/;"	h	modifiedFile:a/st.c
 -85,30 +85,30	st-nordtheme-0.8.2.diff	/^@@ -85,30 +85,30 @@ unsigned int tabspaces = 8;$/;"	h	modifiedFile:a/config.def.h
 .c.o	Makefile	/^.c.o:$/;"	t
 ARGBEGIN	arg.h	/^#define ARGBEGIN	/;"	d
@@ -79,6 +103,7 @@ Fontcache	x.c	/^} Fontcache;$/;"	t	typeref:struct:__anon0b88b7ae0b08	file:
 Glyph	st.h	/^#define Glyph /;"	d
 Glyph	st.h	/^} Glyph;$/;"	t	typeref:struct:__anon7c9e12e20108
 GlyphFontSpec	x.c	/^typedef XftGlyphFontSpec GlyphFontSpec;$/;"	t	typeref:typename:XftGlyphFontSpec	file:
+HISTSIZE	st.c	/^#define HISTSIZE /;"	d	file:
 INCS	config.mk	/^INCS = -I$(X11INC) \\$/;"	m
 ISCONTROL	st.c	/^#define ISCONTROL(/;"	d	file:
 ISCONTROLC0	st.c	/^#define ISCONTROLC0(/;"	d	file:
@@ -154,6 +179,7 @@ Shortcut	x.c	/^} Shortcut;$/;"	t	typeref:struct:__anon0b88b7ae0108	file:
 TCursor	st.c	/^} TCursor;$/;"	t	typeref:struct:__anon7c9e12dd0108	file:
 TERMMOD	config.def.h	/^#define TERMMOD /;"	d
 TIMEDIFF	st.h	/^#define TIMEDIFF(/;"	d
+TLINE	st.c	/^#define TLINE(/;"	d	file:
 TRUEBLUE	x.c	/^#define TRUEBLUE(/;"	d	file:
 TRUECOLOR	st.h	/^#define TRUECOLOR(/;"	d
 TRUEGREEN	x.c	/^#define TRUEGREEN(/;"	d	file:
@@ -192,6 +218,9 @@ __anon7c9e12dd0608	st.c	/^typedef struct {$/;"	s	file:
 __anon7c9e12e20108	st.h	/^typedef struct {$/;"	s
 __anon7c9e12e2020a	st.h	/^typedef union {$/;"	u
 a/config.def.h	st-nordtheme-0.8.2.diff	/^--- a\/config.def.h$/;"	m
+a/config.def.h	st-scrollback-0.8.4.diff	/^--- a\/config.def.h$/;"	m
+a/st.c	st-scrollback-0.8.4.diff	/^--- a\/st.c$/;"	m
+a/st.h	st-scrollback-0.8.4.diff	/^--- a\/st.h$/;"	m
 a/x.c	st-clipboard-0.8.3.diff	/^--- a\/x.c$/;"	m
 a/x.c	st-dynamic-cursor-color-0.8.4.diff	/^--- a\/x.c$/;"	m
 all	Makefile	/^all: options st$/;"	t
@@ -303,6 +332,8 @@ gm	x.c	/^	int gm; \/* geometry mask *\/$/;"	m	struct:__anon0b88b7ae0508	typeref:
 h	x.c	/^	int w, h; \/* window width and height *\/$/;"	m	struct:__anon0b88b7ae0408	typeref:typename:int	file:
 handler	x.c	/^static void (*handler[LASTEvent])(XEvent *) = {$/;"	v	typeref:typename:void (* [LASTEvent])(XEvent *)	file:
 height	x.c	/^	int height;$/;"	m	struct:__anon0b88b7ae0808	typeref:typename:int	file:
+hist	st.c	/^	Line hist[HISTSIZE]; \/* history buffer *\/$/;"	m	struct:__anon7c9e12dd0408	typeref:typename:Line[]	file:
+histi	st.c	/^	int histi;    \/* history index *\/$/;"	m	struct:__anon7c9e12dd0408	typeref:typename:int	file:
 i	st.h	/^	int i;$/;"	m	union:__anon7c9e12e2020a	typeref:typename:int
 ibfont	x.c	/^	Font font, bfont, ifont, ibfont;$/;"	m	struct:__anon0b88b7ae0908	typeref:typename:Font	file:
 icharset	st.c	/^	int icharset; \/* selected charset for sequence *\/$/;"	m	struct:__anon7c9e12dd0408	typeref:typename:int	file:
@@ -317,6 +348,8 @@ key	config.def.h	/^static Key key[] = {$/;"	v	typeref:typename:Key[]
 keysym	x.c	/^	KeySym keysym;$/;"	m	struct:__anon0b88b7ae0108	typeref:typename:KeySym	file:
 kmap	x.c	/^kmap(KeySym k, uint state)$/;"	f	typeref:typename:char *
 kpress	x.c	/^kpress(XEvent *ev)$/;"	f	typeref:typename:void
+kscrolldown	st.c	/^kscrolldown(const Arg* a)$/;"	f	typeref:typename:void
+kscrollup	st.c	/^kscrollup(const Arg* a)$/;"	f	typeref:typename:void
 l	x.c	/^	int l, t; \/* left and top offset *\/$/;"	m	struct:__anon0b88b7ae0508	typeref:typename:int	file:
 lastc	st.c	/^	Rune lastc;   \/* last printed char outside of sequence, 0 if control *\/$/;"	m	struct:__anon7c9e12dd0408	typeref:typename:Rune	file:
 lbearing	x.c	/^	short lbearing;$/;"	m	struct:__anon0b88b7ae0808	typeref:typename:short	file:
@@ -383,6 +416,7 @@ rows	config.def.h	/^static unsigned int rows = 24;$/;"	v	typeref:typename:unsign
 run	x.c	/^run(void)$/;"	f	typeref:typename:void
 s	st.h	/^	const char *s;$/;"	m	union:__anon7c9e12e2020a	typeref:typename:const char *
 s	x.c	/^	char *s;$/;"	m	struct:__anon0b88b7ae0308	typeref:typename:char *	file:
+scr	st.c	/^	int scr;      \/* scroll back *\/$/;"	m	struct:__anon7c9e12dd0408	typeref:typename:int	file:
 scr	x.c	/^	int scr;$/;"	m	struct:__anon0b88b7ae0508	typeref:typename:int	file:
 scroll	config.def.h	/^char *scroll = NULL;$/;"	v	typeref:typename:char *
 sel	st.c	/^static Selection sel;$/;"	v	typeref:typename:Selection	file:
@@ -463,8 +497,8 @@ trantbl	st.c	/^	char trantbl[4]; \/* charset table translation *\/$/;"	m	struct:
 treset	st.c	/^treset(void)$/;"	f	typeref:typename:void
 tresize	st.c	/^tresize(int col, int row)$/;"	f	typeref:typename:void
 tripleclicktimeout	config.def.h	/^static unsigned int tripleclicktimeout = 600;$/;"	v	typeref:typename:unsigned int
-tscrolldown	st.c	/^tscrolldown(int orig, int n)$/;"	f	typeref:typename:void
-tscrollup	st.c	/^tscrollup(int orig, int n)$/;"	f	typeref:typename:void
+tscrolldown	st.c	/^tscrolldown(int orig, int n, int copyhist)$/;"	f	typeref:typename:void
+tscrollup	st.c	/^tscrollup(int orig, int n, int copyhist)$/;"	f	typeref:typename:void
 tsetattr	st.c	/^tsetattr(const int *attr, int l)$/;"	f	typeref:typename:void
 tsetchar	st.c	/^tsetchar(Rune u, const Glyph *attr, int x, int y)$/;"	f	typeref:typename:void
 tsetdirt	st.c	/^tsetdirt(int top, int bot)$/;"	f	typeref:typename:void
